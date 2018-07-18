@@ -13,11 +13,11 @@ import Page3 from './components/Page3'
 const Routing = () => (
 
     <Router>
-        <switch>
+        <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/page2' component={Page2} />
             <Route path='/Page3' component={Page3} />
-        </switch>
+        </Switch>
     </Router>
 
 )
